@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA01ED9C2C5542A200B0B1B7 /* StretchyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01ED9B2C5542A200B0B1B7 /* StretchyHeader.swift */; };
+		BA01EDA02C555B5700B0B1B7 /* ViewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01ED9F2C555B5700B0B1B7 /* ViewsList.swift */; };
 		BAC542282C5541B40035161C /* ios_screens_libraryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC542272C5541B40035161C /* ios_screens_libraryApp.swift */; };
 		BAC5422A2C5541B40035161C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC542292C5541B40035161C /* ContentView.swift */; };
 		BAC5422C2C5541B50035161C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAC5422B2C5541B50035161C /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA01ED9B2C5542A200B0B1B7 /* StretchyHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeader.swift; sourceTree = "<group>"; };
+		BA01ED9F2C555B5700B0B1B7 /* ViewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsList.swift; sourceTree = "<group>"; };
 		BAC542242C5541B30035161C /* ios-screens-library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-screens-library.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC542272C5541B40035161C /* ios_screens_libraryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_screens_libraryApp.swift; sourceTree = "<group>"; };
 		BAC542292C5541B40035161C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 				BAC542292C5541B40035161C /* ContentView.swift */,
 				BAC5422B2C5541B50035161C /* Assets.xcassets */,
 				BAC5422D2C5541B50035161C /* Preview Content */,
+				BA01ED9B2C5542A200B0B1B7 /* StretchyHeader.swift */,
+				BA01ED9F2C555B5700B0B1B7 /* ViewsList.swift */,
 			);
 			path = "ios-screens-library";
 			sourceTree = "<group>";
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA01EDA02C555B5700B0B1B7 /* ViewsList.swift in Sources */,
 				BAC5422A2C5541B40035161C /* ContentView.swift in Sources */,
 				BAC542282C5541B40035161C /* ios_screens_libraryApp.swift in Sources */,
+				BA01ED9C2C5542A200B0B1B7 /* StretchyHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,9 @@ import SwiftUI
 struct ios_screens_libraryApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ContentView()
+            }
         }
     }
 }
