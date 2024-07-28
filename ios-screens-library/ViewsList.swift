@@ -9,6 +9,7 @@ import SwiftUI
 
 enum AvailableViews: String, CaseIterable, Identifiable {
     case stretchyHeader = "Stretchy Header"
+    case onboardingView = "Onboarding screens"
 
     var id: String { rawValue }
 
@@ -29,6 +30,9 @@ enum AvailableViews: String, CaseIterable, Identifiable {
                     }
                 }
             }
+        case .onboardingView:
+            OnboardingView()
+                .edgesIgnoringSafeArea(.top)
         }
     }
 }

@@ -16,11 +16,11 @@ struct StretchyHeader: View {
             let width = proxy.frame(in: .global).width
 
             ZStack {
-                Image("cone")
+                Image("cat1")
                     .resizable()
                     .scaledToFill()
 
-                    .frame(width: width, height: 300 + max(0, offset))
+                    .frame(width: width, height: height + max(0, offset))
                     .clipped()
                     .transformEffect(.init(translationX: 0, y: -max(0, offset)))
 

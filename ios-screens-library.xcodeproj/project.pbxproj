@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		BA01ED9C2C5542A200B0B1B7 /* StretchyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01ED9B2C5542A200B0B1B7 /* StretchyHeader.swift */; };
 		BA01EDA02C555B5700B0B1B7 /* ViewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01ED9F2C555B5700B0B1B7 /* ViewsList.swift */; };
+		BA01EDA22C557F1E00B0B1B7 /* CardToModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01EDA12C557F1E00B0B1B7 /* CardToModal.swift */; };
+		BAAB4DDC2C5633B400483E4C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAB4DDB2C5633B400483E4C /* OnboardingView.swift */; };
+		BAAB4DDE2C56344900483E4C /* OnboardingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAB4DDD2C56344900483E4C /* OnboardingCardView.swift */; };
 		BAC542282C5541B40035161C /* ios_screens_libraryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC542272C5541B40035161C /* ios_screens_libraryApp.swift */; };
 		BAC5422A2C5541B40035161C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC542292C5541B40035161C /* ContentView.swift */; };
 		BAC5422C2C5541B50035161C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAC5422B2C5541B50035161C /* Assets.xcassets */; };
@@ -38,6 +41,9 @@
 /* Begin PBXFileReference section */
 		BA01ED9B2C5542A200B0B1B7 /* StretchyHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeader.swift; sourceTree = "<group>"; };
 		BA01ED9F2C555B5700B0B1B7 /* ViewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsList.swift; sourceTree = "<group>"; };
+		BA01EDA12C557F1E00B0B1B7 /* CardToModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardToModal.swift; sourceTree = "<group>"; };
+		BAAB4DDB2C5633B400483E4C /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		BAAB4DDD2C56344900483E4C /* OnboardingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCardView.swift; sourceTree = "<group>"; };
 		BAC542242C5541B30035161C /* ios-screens-library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-screens-library.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC542272C5541B40035161C /* ios_screens_libraryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_screens_libraryApp.swift; sourceTree = "<group>"; };
 		BAC542292C5541B40035161C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +81,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BAAB4DD82C56336000483E4C /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				BA01ED9B2C5542A200B0B1B7 /* StretchyHeader.swift */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		BAAB4DD92C56337B00483E4C /* Teasers */ = {
+			isa = PBXGroup;
+			children = (
+				BA01EDA12C557F1E00B0B1B7 /* CardToModal.swift */,
+			);
+			path = Teasers;
+			sourceTree = "<group>";
+		};
+		BAAB4DDA2C56339300483E4C /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				BAAB4DDB2C5633B400483E4C /* OnboardingView.swift */,
+				BAAB4DDD2C56344900483E4C /* OnboardingCardView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		BAC5421B2C5541B30035161C = {
 			isa = PBXGroup;
 			children = (
@@ -98,11 +129,13 @@
 		BAC542262C5541B30035161C /* ios-screens-library */ = {
 			isa = PBXGroup;
 			children = (
+				BAAB4DDA2C56339300483E4C /* Onboarding */,
+				BAAB4DD92C56337B00483E4C /* Teasers */,
+				BAAB4DD82C56336000483E4C /* Headers */,
 				BAC542272C5541B40035161C /* ios_screens_libraryApp.swift */,
 				BAC542292C5541B40035161C /* ContentView.swift */,
 				BAC5422B2C5541B50035161C /* Assets.xcassets */,
 				BAC5422D2C5541B50035161C /* Preview Content */,
-				BA01ED9B2C5542A200B0B1B7 /* StretchyHeader.swift */,
 				BA01ED9F2C555B5700B0B1B7 /* ViewsList.swift */,
 			);
 			path = "ios-screens-library";
@@ -263,7 +296,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAAB4DDC2C5633B400483E4C /* OnboardingView.swift in Sources */,
+				BAAB4DDE2C56344900483E4C /* OnboardingCardView.swift in Sources */,
 				BA01EDA02C555B5700B0B1B7 /* ViewsList.swift in Sources */,
+				BA01EDA22C557F1E00B0B1B7 /* CardToModal.swift in Sources */,
 				BAC5422A2C5541B40035161C /* ContentView.swift in Sources */,
 				BAC542282C5541B40035161C /* ios_screens_libraryApp.swift in Sources */,
 				BA01ED9C2C5542A200B0B1B7 /* StretchyHeader.swift in Sources */,
